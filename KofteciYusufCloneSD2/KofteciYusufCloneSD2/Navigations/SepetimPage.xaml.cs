@@ -16,21 +16,16 @@ namespace KofteciYusufCloneSD2.NavigationsPage
         {
             InitializeComponent();
 
-            Content = new Label
-            {
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Center,
-                Text = "Sepetinizde Ürün Bulunmamaktadır"
-            };
+            
 
 
             
         }
-
         private async void UrunlereGit_Click(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PushModalAsync(new MainPage());
         }
+
 
 
     }

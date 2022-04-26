@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KofteciYusufCloneSD2.Navigations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace KofteciYusufCloneSD2.NavigationsPage
         public HesabımPage()
         {
             InitializeComponent();
+        }
+
+        private async void GirisYap_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new GirisYap());
         }
     }
 }

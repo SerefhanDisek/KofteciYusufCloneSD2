@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KofteciYusufCloneSD2.NavigationsPage.SepetimPage">
     <ContentPage.Content>
+
+
         <StackLayout>
+
+            <Label Text="Sepetinizde Ürün Bulunmamaktadır"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+
+
+
+
             <Button Text="Ürünlere Git"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center" Clicked="UrunlereGit_Click"/>
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand" Clicked="UrunlereGit_Click"/>
 
 
 

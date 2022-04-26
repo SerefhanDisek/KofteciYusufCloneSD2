@@ -32,7 +32,9 @@
             <StackLayout Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Fill">
                 <Button Text="Anasayfa" Clicked="AnaSayfa_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" BackgroundColor="#2b2b2b" CornerRadius="10" />
                 <Button Text="Sepetim" Clicked="Sepetim_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" BackgroundColor="#cc6600" BorderWidth="2" BorderColor="White" CornerRadius="50"/>
-                <Button Text="Hesabım"   HorizontalOptions="FillAndExpand" TextColor="LightGray" BackgroundColor="#2b2b2b" CornerRadius="10"/>
+                <Button Text="Hesabım"  Clicked="Hesabım_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" BackgroundColor="#2b2b2b" CornerRadius="10"/>
+
+                
 
 
             </StackLayout>
