@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace KofteciYusufCloneSD2.MasterDetailPage
+namespace KofteciYusufCloneSD2.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterDetailPageMenu : ContentPage
+    public partial class CigUrunlerPage : ContentPage
     {
-        public MasterDetailPageMenu()
+        public CigUrunlerPage()
         {
             InitializeComponent();
         }

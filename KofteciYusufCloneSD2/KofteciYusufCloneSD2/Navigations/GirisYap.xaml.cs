@@ -16,6 +16,13 @@ namespace KofteciYusufCloneSD2.Navigations
             InitializeComponent();
         }
 
-        
+        async void GirisYap_Click (object sender, EventArgs e)
+        {
+            var kullanıcı = new Kullanıcı
+            {
+                KullanıcıAdı = kullanıcıAdıEntry.Text,
+                Şifre = şifreEntry.Text
+            };
+        }
     }
 }

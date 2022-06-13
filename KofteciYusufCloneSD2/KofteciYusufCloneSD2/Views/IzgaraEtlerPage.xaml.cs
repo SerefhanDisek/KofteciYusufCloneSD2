@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace KofteciYusufCloneSD2.MasterDetailPage
+namespace KofteciYusufCloneSD2.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Detail2 : ContentPage
+    public partial class IzgaraEtlerPage : ContentPage
     {
-        public Detail2()
+        public IzgaraEtlerPage()
         {
             InitializeComponent();
         }

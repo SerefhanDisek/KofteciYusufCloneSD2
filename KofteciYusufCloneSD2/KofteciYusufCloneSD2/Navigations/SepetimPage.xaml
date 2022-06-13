@@ -16,7 +16,7 @@
 
             <Button Text="Ürünlere Git"
                     VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand" Clicked="UrunlereGit_Click"/>
+                    HorizontalOptions="CenterAndExpand" Clicked="UrunlereGit_Click" TextColor="LightGray" BackgroundColor="#cc6600"/>
 
 
 

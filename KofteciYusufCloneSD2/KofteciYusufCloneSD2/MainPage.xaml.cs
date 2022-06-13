@@ -31,7 +31,11 @@ namespace KofteciYusufCloneSD2
             await Navigation.PushModalAsync(new HesabımPage());
         }
 
-        
+       private async void Menu_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Navigations.MenuPage());
+        }
+
 
 
     }
