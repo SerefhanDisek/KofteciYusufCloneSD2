@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using KofteciYusufCloneSD2.ViewModels;
 
 namespace KofteciYusufCloneSD2.Views
 {

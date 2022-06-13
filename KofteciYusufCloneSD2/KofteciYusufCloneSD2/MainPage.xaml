@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage Title="KofteciYusufCloneApp" BackgroundColor="#1b1b1b" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:viewModels="clr-namespace:KofteciYusufCloneSD2.ViewModels;assembly=KofteciYusufCloneSD2"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KofteciYusufCloneSD2.MainPage">
+             
 
     <StackLayout x:Key="mainLayout" BackgroundColor="#1f2326">
         <Grid RowSpacing="10" ColumnSpacing="10" >
@@ -22,11 +24,11 @@
             <Button Grid.Row="2" Grid.Column="0" Text="KöfteciYusuf" BackgroundColor="#B55400" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
             <Button Grid.Row="2" Grid.Column="1" Text="HesaplıKasap" BackgroundColor="Red" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
             <StackLayout Grid.Row="3" BackgroundColor="#383838" Grid.Column="0" Spacing="15" Padding="10" VerticalOptions="Fill">
-                <Button Text="Favori Lezzetler"  HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
-                <Button Text="Çiğ Ürünler"  HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
-                <Button Text="Izgara Etler"  HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
-                <Button Text="Ekmek Arası"  HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
-                <Button Text="Tatlı - İçecek"  HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
+                <Button Text="Favori Lezzetler"  Clicked="FavoriLezzetler_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
+                <Button Text="Çiğ Ürünler"  Clicked="CigUrunler_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
+                <Button Text="Izgara Etler"  Clicked="IzgaraEtler_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
+                <Button Text="Ekmek Arası"  Clicked="EkmekArasi_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
+                <Button Text="Tatlı - İçecek"  Clicked="TatliIcecek_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>
             </StackLayout>
             <Label Grid.Row="3" Text="Top" BackgroundColor="Aqua" Grid.Column="1"/>
             <StackLayout Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Fill">

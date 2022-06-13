@@ -6,6 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using KofteciYusufCloneSD2.Models;
+using KofteciYusufCloneSD2.ViewModels;
+using KofteciYusufCloneSD2.Views;
 
 namespace KofteciYusufCloneSD2
 {
@@ -36,6 +39,32 @@ namespace KofteciYusufCloneSD2
             await Navigation.PushModalAsync(new Navigations.MenuPage());
         }
 
+        private async void FavoriLezzetler_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new FavoriLezzetler());
+
+
+        }
+
+        private async void CigUrunler_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CigUrunlerPage());
+        }
+
+        private async void IzgaraEtler_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new IzgaraEtlerPage());
+        }
+
+        private async void EkmekArasi_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EkmekArasiPage());
+        }
+
+        private async void TatliIcecek_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TatliPage());
+        }
 
 
     }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using KofteciYusufCloneSD2.ViewModels;
 
 namespace KofteciYusufCloneSD2.Views
 {
@@ -15,6 +16,7 @@ namespace KofteciYusufCloneSD2.Views
         public FavoriLezzetlerPage()
         {
             InitializeComponent();
+            BindingContext = new FavoriLezzetlerViewModel();
         }
     }
 }
